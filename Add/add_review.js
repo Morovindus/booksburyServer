@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/booksbury', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Модель для книг
-const Book = require('./Book');
+const Book = require('../Structure/Book');
 
 // Функция для добавления нового отзыва к книге с определенным ID
 async function addReviewToBook(bookId, newReview) {

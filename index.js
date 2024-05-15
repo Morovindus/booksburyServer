@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const Book = require('./Structure/Book'); // Импортируем модель Book
-const User = require('./Structure/Users'); // Импортируем модель User
+//const User = require('./Structure/Users'); // Импортируем модель User
 
 const app = express();
 const port = 3000;
@@ -16,6 +16,7 @@ const profileRoutes = require('./Routes/profile_page');
 const booksRoutes = require('./Routes/books_page');
 const bookInfoRoutes = require('./Routes/book_info_page');
 const favoriteRoutes = require('./Routes/favorite_page');
+const exploreRoutes = require('./Routes/explore_page');
 const loginRoutes = require('./Routes/login_page');
 const registrationRoutes = require('./Routes/registration_page');
 
@@ -26,6 +27,7 @@ app.use('/api/user', profileRoutes);
 app.use('', booksRoutes);
 app.use('/api/books', bookInfoRoutes);
 app.use('/api/users', favoriteRoutes);
+app.use('', exploreRoutes);
 app.use('/api', loginRoutes);
 app.use('/api', registrationRoutes);
 

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const User = require('./Users'); // Импортируем модель User
+const User = require('../Structure/Users'); // Импортируем модель User
 
 // Подключение к MongoDB
 mongoose.connect('mongodb://localhost:27017/booksbury', { useNewUrlParser: true, useUnifiedTopology: true })

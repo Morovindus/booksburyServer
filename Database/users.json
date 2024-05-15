@@ -1,0 +1,41 @@
+[{
+  "_id": 694240,
+  "username": "Olya Ivanova",
+  "email": "user@example.com",
+  "password": "password123",
+  "notifications": [],
+  "purchasedBooks": [],
+  "favoriteBooks": [],
+  "cart": [],
+  "__v": 0
+},
+{
+  "_id": 592708,
+  "username": "Onyia Chikamso",
+  "email": "onyua_chikamso@gmail.com",
+  "password": "1234",
+  "notifications": [],
+  "purchasedBooks": [
+    "124729"
+  ],
+  "favoriteBooks": [],
+  "cart": [],
+  "__v": 0
+},
+{
+  "_id": 764544,
+  "username": "Mark Knyazev",
+  "email": "markela2604@yandex.ru",
+  "password": "1234",
+  "notifications": [],
+  "purchasedBooks": [
+    "124729"
+  ],
+  "favoriteBooks": [
+    124729
+  ],
+  "cart": [
+    946107
+  ],
+  "__v": 27
+}]

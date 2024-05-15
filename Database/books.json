@@ -1,0 +1,335 @@
+[{
+  "_id": 124729,
+  "price": 757,
+  "released": 2021,
+  "part": 16,
+  "page": 340,
+  "en": {
+    "title": "The Homeric Hymns",
+    "synopsis": "'With fair-tressed Demeter, the sacred goddess, my song begins, With herself and her slim-ankled daughter, whom Aidoneus once Abducted...' Most people are familiar, at least by repute, with the two great epics of Homer, the Iliad and the Odyssey, but few are aware that other poems survive that were attributed to Homer in ancient times. The Homeric Hymns are now known to be the work of various poets working in the same tradition, probably during the seventh and sixth centuries BC. They honour the Greek gods, and recount some of the most attractive of the Greek myths. Four of them (Hymns 2-5) stand out by reason of their length and quality. The Hymn to Demeter tells what happened when Hades, lord of the dead, abducted Persephone, Demeter's daughter.",
+    "details": "The Homeric Hymns are a collection of ancient Greek poems attributed to Homer, though they are now believed to have been composed by various poets within the same tradition during the seventh and sixth centuries BC. While Homer's more famous epics, the Iliad and the Odyssey, are widely known, the Homeric Hymns are often overlooked. These hymns honor the Greek gods and goddesses and recount some of the most captivating myths of ancient Greece. Among them, the Hymn to Demeter stands out for its length and quality. It tells the story of the abduction of Persephone, daughter of Demeter, by Hades, the lord of the dead. The hymn delves into the sorrow and eventual resolution surrounding this event, offering insight into the ancient Greek understanding of the divine and the natural world.",
+    "authorName": "Michael Crudden",
+    "authorAbout": "Michael Crudden is an experienced content creator and digital marketer known for his engaging and informative online presence. With a background in video production and a passion for storytelling, Michael has garnered a dedicated following across various social media platforms. His content spans a wide range of topics, including technology reviews, lifestyle vlogs, and motivational content aimed at inspiring his audience to pursue their passions and live their best lives. With his personable demeanor and knack for connecting with viewers, Michael has established himself as a trusted voice in the digital space, consistently delivering valuable insights and entertaining content to his growing community.",
+    "genre": "Classic",
+    "book": "URL to PDF",
+    "bookAudio": "URL to audio"
+  },
+  "images": {
+    "bigCover": "http://192.168.1.42:3000/Images/The_Homeric_Hymns/bigPicture.png",
+    "middleCover": "http://192.168.1.42:3000/Images/The_Homeric_Hymns/middlePicture.png",
+    "averageCover": "http://192.168.1.42:3000/Images/The_Homeric_Hymns/averagePicture.png",
+    "smallCover": "http://192.168.1.42:3000/Images/The_Homeric_Hymns/smallPicture.png",
+    "authorImage": "http://192.168.1.42:3000/Images/The_Homeric_Hymns/authorPicture.png"
+  },
+  "reviews": [
+    {
+      "_id": 592708,
+      "nameUser": "Onyia Chikamso",
+      "date": "26 Apr 2024",
+      "textUser": "\"The Homeric Hymns\" is a captivating collection of hymns attributed to Homer, offering readers a fascinating glimpse into the world of ancient Greek mythology. Through eloquent prose and vivid imagery, these hymns explore the lives of gods and goddesses, their powers, struggles, and interactions with mortals.",
+      "stars": 4
+    },
+    {
+      "_id": 236084,
+      "nameUser": "Emily Johnson",
+      "date": "19 Mar 2024",
+      "textUser": "The Homeric Hymns offer a captivating glimpse into the ancient Greek world, immersing readers in the rich tapestry of Greek mythology through a series of poetic hymns. These hymns, attributed to Homer, celebrate the gods and goddesses of Olympus, weaving together tales of divine power, human interaction, and the interconnectedness of the mortal and immortal realms. Through vivid imagery and lyrical language, they evoke a sense of wonder and reverence for the pantheon of Greek deities, making them a timeless treasure for lovers of mythology and literature alike.",
+      "stars": 5
+    },
+    {
+      "_id": 474811,
+      "nameUser": "Michael Thompson",
+      "date": "5 Apr 2024",
+      "textUser": "The Homeric Hymns are a mesmerizing journey through the ancient Greek pantheon, each hymn a lyrical ode to the gods and goddesses of Olympus. From the majestic hymn to Zeus, the father of gods and men, to the tender tribute to Demeter, goddess of agriculture and fertility, these hymns resonate with the timeless themes of power, love, and the human condition. Through Homer's masterful storytelling, readers are transported to a world where mortals and immortals intertwine, offering a profound reflection on the nature of divinity and humanity.",
+      "stars": 4
+    },
+    {
+      "_id": 193324,
+      "nameUser": "Olivia Reynolds",
+      "date": "13 Feb 2024",
+      "textUser": "Immersing myself in the pages of \"The Homeric Hymns\" was a transcendental experience, as each hymn unfurled a vibrant tapestry of Greek mythology before my eyes. Authored by the legendary Homer, these hymns resonate with timeless beauty and profound storytelling, offering an intimate glimpse into the divine realm of Mount Olympus. From the stirring odes to the gods and goddesses to the enchanting tales of their exploits, Homers mastery of language and imagery captivates the imagination and ignites a sense of wonder. As I journeyed through this ancient collection, I couldnt help but marvel at the enduring power and relevance of these tales, which continue to inspire and enchant readers across centuries. \"The Homeric Hymns\" is not merely a book; it is a sacred journey into the heart of Greek mythology, inviting readers to partake in the timeless dance of gods and mortals.",
+      "stars": 5
+    },
+    {
+      "_id": 476070,
+      "nameUser": "Sophia Reynolds",
+      "date": "12 May 2024",
+      "textUser": "\"The Homeric Hymns\" is a timeless treasure trove of Greek mythology that effortlessly captivates the imagination. Authored by the renowned poet Homer, this collection of hymns offers a mesmerizing glimpse into the world of ancient Greece, where gods and mortals intertwine in epic tales of love, betrayal, and heroism. As I delved into these enchanting narratives, I found myself entranced by Homers masterful command of language and his ability to evoke the splendor of Mount Olympus and the depths of the human soul. Each hymn is a testament to the enduring power of storytelling, serving as a bridge between the past and the present, and reminding us of the timeless themes that unite humanity across cultures and epochs.",
+      "stars": 3
+    }
+  ],
+  "__v": 0,
+  "ru": {
+    "title": "Гомеровы Гимны",
+    "synopsis": "С прекрасноукой Деметрой, священной богиней, начинается моя песнь, Самой собой и ее стройной дочерью, которую когда-то похитил Аидоней...\" Большинство людей хотя бы по наслышке знакомы с двумя великими эпосами Гомера, Илиадой и Одиссеей, но немногие знают, что существуют и другие поэмы, которые в древние времена приписывались Гомеру. Гомеровские гимны теперь известны как произведения различных поэтов, работавших в той же традиции, вероятно, в седьмом и шестом веках до нашей эры. Они прославляют греческих богов и рассказывают о некоторых из привлекательных греческих мифов. Из них выделяются четыре (Гимны 2-5) своим объемом и качеством. Гимн Деметре рассказывает о том, что произошло, когда Аид, владыка мертвых, похитил Персефону, дочь Деметры.",
+    "details": "Гомеровские гимны — это сборник древнегреческих поэм, приписываемых Гомеру, хотя сегодня считается, что они были сочинены различными поэтами в рамках одной традиции в седьмом и шестом веках до нашей эры. В то время как более известные эпосы Гомера, \"Илиада\" и \"Одиссея\", широко известны, Гомеровские гимны часто остаются незамеченными. Эти гимны почитают греческих богов и богинь и рассказывают некоторые из самых захватывающих мифов древней Греции. Среди них выделяется Гимн Деметре своим объемом и качеством. Он повествует о похищении Персефоны, дочери Деметры, Аидом, владыкой мертвых. Гимн погружается в горе и окончательное разрешение этого события, предлагая понимание древнегреческого взгляда на божественное и природный мир.",
+    "authorName": "Майкл Крэдден",
+    "authorAbout": "Майкл Крэдден – опытный создатель контента и цифровой маркетолог, известный своим привлекательным и информативным онлайн-присутствием. Обладая опытом в видеопроизводстве и страстью к рассказыванию историй, Майкл завоевал преданную аудиторию на различных социальных платформах. Его контент охватывает широкий спектр тем, включая обзоры технологий, жизненные видеоблоги и мотивационный контент, направленный на вдохновение аудитории следовать своим страстям и жить полной жизнью. Благодаря своему обаянию и умению находить общий язык с зрителями, Майкл зарекомендовал себя как доверенный голос в цифровом пространстве, постоянно предоставляя ценные идеи и развлекательный контент своему растущему сообществу.",
+    "genre": "Классика",
+    "book": "Ссылка на PDF на русском",
+    "bookAudio": "Ссылка на аудиофайл на русском"
+  }
+},
+{
+  "_id": 946107,
+  "price": 399,
+  "released": 2019,
+  "part": 1,
+  "page": 256,
+  "en": {
+    "title": "History of the Ancient World's Society",
+    "synopsis": "History of the Ancient World's Society takes readers on a captivating journey through the annals of history, exploring the rise, development, and eventual decline of ancient civilizations from around the globe. From the majestic pyramids of Egypt to the grandeur of Rome, this book offers an in-depth exploration of societies, cultures, and legacies that have shaped our world. With a focus on key events, figures, and cultural phenomena, this synopsis provides a glimpse into the rich tapestry of human history found within its pages.",
+    "details": "This book offers a comprehensive overview of ancient societies from around the world, covering their rise, development, and eventual decline. From the majestic pyramids of Egypt to the grandeur of Rome, Dr. Tikendranath Sarkar takes readers on a captivating journey through the annals of history.",
+    "authorName": "Dr. Tikendranath Sarkar",
+    "authorAbout": "Dr. Tikendranath Sarkar is a renowned historian specializing in ancient civilizations. With decades of research and teaching experience, Dr. Sarkar brings a wealth of knowledge and expertise to this insightful exploration of the ancient world.",
+    "genre": "Classic",
+    "book": "URL_to_PDF",
+    "bookAudio": "URL_to_audio"
+  },
+  "ru": {
+    "title": "История Обществ Древнего Мира",
+    "synopsis": "История Общества Древнего Мира ведет читателей по захватывающему пути через страницы истории, исследуя восхождение, развитие и в конечном итоге упадок древних цивилизаций со всего мира. От величественных пирамид Египта до великолепия Рима, эта книга предлагает всестороннее исследование обществ, культур и наследия, которые сформировали наш мир. С фокусом на ключевые события, фигуры и культурные явления, данный синопсис предоставляет представление о богатой ткани человеческой истории, обнаруживаемой на ее страницах.",
+    "details": "Эта книга предлагает всесторонний обзор древних обществ со всего мира, описывая их восхождение, развитие и последующий упадок. От величественных пирамид Египта до великолепия Рима, доктор Тикендранат Саркар ведет читателей по захватывающему пути через просторы истории.",
+    "authorName": "Доктор Тикендранат Саркар",
+    "authorAbout": "Доктор Тикендранат Саркар – известный историк, специализирующийся на древних цивилизациях. Обладая десятилетиями опыта исследований и преподавания, доктор Саркар приносит богатство знаний и экспертизы в этот проницательный обзор древнего мира.",
+    "genre": "Классика",
+    "book": "URL_к_PDF",
+    "bookAudio": "URL_к_аудио"
+  },
+  "images": {
+    "bigCover": "http://192.168.1.42:3000/Images/History_of_the_Ancient_World's_Society/bigPicture.png",
+    "middleCover": "http://192.168.1.42:3000/Images/History_of_the_Ancient_World's_Society/middlePicture.png",
+    "averageCover": "http://192.168.1.42:3000/Images/History_of_the_Ancient_World's_Society/averagePicture.png",
+    "smallCover": "http://192.168.1.42:3000/Images/History_of_the_Ancient_World's_Society/smallPicture.png",
+    "authorImage": "http://192.168.1.42:3000/Images/History_of_the_Ancient_World's_Society/authorPicture.png"
+  },
+  "reviews": [
+    {
+      "_id": 909998,
+      "nameUser": "Maya Patel",
+      "date": "15 May 2024",
+      "textUser": "History of the Ancient Worlds Society is a captivating journey through the annals of history, expertly crafted by Dr. Tikendranath Sarkar. As I delved into the pages of this comprehensive exploration of ancient civilizations, I was mesmerized by Sarkars meticulous research and engaging prose. From the rise of Mesopotamia to the glory of ancient Greece, each chapter offers a rich tapestry of cultures, societies, and legacies that have shaped our world. Sarkars depth of knowledge and passion for the subject shine through, making this book both enlightening and enthralling. Whether youre a seasoned historian or a casual enthusiast, History of the Ancient Worlds Society is a must-read that will leave you enlightened and inspired.",
+      "stars": 5
+    },
+    {
+      "_id": 727667,
+      "nameUser": "Benjamin Hayes",
+      "date": "26 Sep 2022",
+      "textUser": "\"History of the Ancient Worlds Society\" by Dr. Tikendranath Sarkar is a scholarly masterpiece that transports readers through the corridors of time to explore the rich tapestry of ancient civilizations. Sarkars meticulous research and eloquent prose bring to life the rise and fall of empires, the development of cultures, and the enduring legacies of the past. Each chapter is a captivating journey into the depths of history, offering profound insights into the complexities of human society. As I immersed myself in Sarkars narrative, I found myself captivated by the depth of knowledge and passion evident in every page. This book is not only a testament to Sarkars expertise but also a valuable resource for anyone seeking to understand the foundations of our modern world. Highly recommended for both scholars and enthusiasts alike.",
+      "stars": 3
+    },
+    {
+      "_id": 604531,
+      "nameUser": "Sofia Ramirez",
+      "date": "7 Oct 2023",
+      "textUser": "\"History of the Ancient Worlds Society\" by Dr. Tikendranath Sarkar is a mesmerizing journey through the annals of time, expertly weaving together the intricate tapestry of ancient civilizations. Sarkars meticulous research and insightful narrative paint a vivid picture of the rise and fall of empires, the evolution of cultures, and the enduring legacy of humanitys past. Each chapter is a captivating exploration of the human experience, offering readers a deeper understanding of our shared history. As I delved into this captivating book, I found myself immersed in Sarkars world, eagerly turning each page to uncover the secrets of the past. This book is a testament to Sarkars expertise and passion for the subject, making it a must-read for anyone interested in unraveling the mysteries of ancient civilizations.",
+      "stars": 5
+    },
+    {
+      "_id": 971602,
+      "nameUser": "Ethan Carter",
+      "date": "19 Jul 2019",
+      "textUser": "\"History of the Ancient Worlds Society\" by Dr. Tikendranath Sarkar is a captivating exploration of the foundations of human civilization. Sarkars expertise and passion for the subject shine through in this meticulously researched book, which offers readers a comprehensive overview of ancient societies. From the awe-inspiring monuments of Egypt to the philosophical teachings of ancient Greece, each chapter is a fascinating journey through time. Sarkars engaging narrative style and insightful analysis make this book an invaluable resource for anyone interested in understanding the complexities of the ancient world. As I immersed myself in the pages of this enlightening work, I couldnt help but marvel at the enduring legacy of these ancient civilizations and their profound impact on our modern society.",
+      "stars": 4
+    },
+    {
+      "_id": 736810,
+      "nameUser": "Isabella Khan",
+      "date": "1 Apr 2023",
+      "textUser": "\"History of the Ancient Worlds Society\" by Dr. Tikendranath Sarkar is an enlightening journey through the corridors of time, offering a profound exploration of ancient civilizations. Sarkars meticulous research and captivating storytelling breathe life into the past, allowing readers to immerse themselves in the vibrant tapestry of human history. With each chapter, Sarkar unveils the triumphs and tribulations of ancient societies, shedding light on their cultural achievements, political intrigues, and enduring legacies. As I delved into this captivating book, I found myself transported to distant lands and epochs, gaining a deeper appreciation for the rich diversity of human experience. \"History of the Ancient Worlds Society\" is a testament to Sarkars scholarship and passion for the subject, making it a must-read for anyone seeking to uncover the secrets of the past.",
+      "stars": 5
+    },
+    {
+      "_id": 162119,
+      "nameUser": "Liam Thompson",
+      "date": "19 May 2024",
+      "textUser": "The exploration of ancient civilizations within this societys framework was an illuminating journey through the annals of time. Each session offered a captivating delve into the intricate tapestry of human history, shedding light on the myriad cultures and societies that shaped our world millennia ago. The depth of research and passion displayed by the speakers was palpable, enriching the discussions and fostering a profound appreciation for the complexities of ancient civilizations. From the rise and fall of empires to the everyday lives of ordinary people, every aspect was meticulously examined, painting a vivid portrait of our collective past. Moreover, the inclusive and welcoming atmosphere fostered engaging exchanges among participants, enhancing the learning experience. Overall, this society provides a stimulating platform for enthusiasts and scholars alike to delve into the captivating realm of ancient history.",
+      "stars": 3
+    },
+    {
+      "_id": 519123,
+      "nameUser": "Ava Garcia",
+      "date": "8 Nov 2023",
+      "textUser": "Engaging with the History of the Ancient Worlds Society was a thoroughly enriching experience. The depth of knowledge and passion exhibited by the speakers truly brought ancient civilizations to life, making each session a captivating journey through time. The diverse range of topics covered provided a comprehensive understanding of various cultures and epochs, from the monumental achievements of empires to the intricacies of daily life. Moreover, the welcoming environment fostered stimulating discussions among participants, offering valuable insights and perspectives. Whether youre a seasoned enthusiast or a newcomer to the subject, this society offers a compelling platform to explore and appreciate the fascinating tapestry of our ancient past.",
+      "stars": 2
+    },
+    {
+      "_id": 831387,
+      "nameUser": "Noah Campbell",
+      "date": "30 Dec 2024",
+      "textUser": "Attending sessions with the History of the Ancient Worlds Society was a truly enlightening experience. The depth of insight into various ancient civilizations provided by the speakers was both impressive and captivating. Each session was meticulously crafted to offer a comprehensive understanding of different aspects of ancient history, from political structures to daily life. What truly stood out was the interactive nature of the discussions, which encouraged active participation and fostered a sense of community among attendees. Whether youre a history enthusiast or someone just beginning to explore the ancient world, this society offers a welcoming space to delve into the richness of our shared past.",
+      "stars": 1
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": 572139,
+  "price": 4499,
+  "released": 2008,
+  "part": 4,
+  "page": 223,
+  "en": {
+    "title": "Magic in the Ancient Greek World 4",
+    "synopsis": "In 'Magic in the Ancient Greek World', the author delves into the intricate world of magic as perceived and practiced in ancient Greece. Exploring the various facets of magical beliefs and practices prevalent in the ancient Greek civilization, the book sheds light on how magic was intertwined with religion, philosophy, and everyday life. From spells and incantations to the roles of magicians and the perception of magic in society, this book provides a comprehensive overview of the mystical realm in ancient Greece. Through meticulous research and analysis, it unveils the profound influence of magic on the psyche and culture of the ancient Greeks, offering fascinating insights into this captivating aspect of their civilization.",
+    "details": "Magic in the Ancient Greek World’ offers an immersive journey into the rich tapestry of magical beliefs and practices that permeated the ancient Greek society. Delving beyond the surface, the book meticulously examines the multifaceted nature of magic, from its roots in ancient religious rites to its integration into various aspects of daily life. Through a captivating narrative, readers are transported to a world where spells, charms, and rituals held profound significance, shaping the beliefs, behaviors, and destinies of individuals and communities alike. Drawing upon a wealth of archaeological evidence, literary sources, and scholarly insights, the author unravels the complexities of Greek magic, shedding light on its practitioners, techniques, and societal perceptions. This compelling exploration not only illuminates the mystical underpinnings of ancient Greek civilization but also offers valuable perspectives on the enduring allure of magic throughout human history.",
+    "authorName": "Derek Collins",
+    "authorAbout": "Derek Collins is a distinguished scholar known for his expertise in ancient Greek literature and culture. He has made significant contributions to the field through his research, publications, and academic pursuits. With a focus on Greek poetry, drama, and religion, Collins has delved into various aspects of ancient Greek society, offering valuable insights into its literature, mythology, and philosophical underpinnings. His work is characterized by meticulous scholarship, interdisciplinary approach, and a deep appreciation for the complexities of the ancient world. As a respected authority in his field, Collins's writings continue to inspire and enrich our understanding of classical antiquity.",
+    "genre": "Classic",
+    "book": "URL_to_PDF",
+    "bookAudio": "URL_to_audio"
+  },
+  "ru": {
+    "title": "Магия в Древнем Греческом Мире",
+    "synopsis": "В книге 'Магия в Древнем Греческом Мире' автор погружается в сложный мир магии, так, как её воспринимали и практиковали в Древней Греции. Исследуя различные аспекты магических верований и практик, преобладавших в древнегреческой цивилизации, книга приоткрывает завесу над тем, как магия переплеталась с религией, философией и повседневной жизнью. От заклинаний и заклинаний до роли магов и восприятия магии в обществе, эта книга предоставляет всесторонний обзор мистического мира в Древней Греции. Через тщательные исследования и анализ автор раскрывает глубокое влияние магии на психику и культуру древних греков, предлагая увлекательные идеи в этом захватывающем аспекте их цивилизации.",
+    "details": "Книга 'Магия в Древнем Греческом Мире' предлагает погружение в богатую ткань магических верований и практик, которые проникали в древнегреческое общество. Она детально исследует многогранную природу магии, от её корней в древних религиозных обрядах до её интеграции в различные аспекты повседневной жизни. Через увлекательное повествование читатели переносятся в мир, где заклинания, обереги и обряды имели глубокое значение, формируя верования, поведение и судьбы отдельных личностей и общин в целом. Основываясь на богатом археологическом материале, литературных источниках и научных исследованиях, автор раскрывает сложности греческой магии, проливая свет на её практиков и техники, а также общественное восприятие. Это увлекательное исследование не только проливает свет на мистические основы древнегреческой цивилизации, но и предлагает ценные перспективы на постоянное влечение к магии на протяжении всей истории человечества.",
+    "authorName": "Дерек Коллинз",
+    "authorAbout": "Дерек Коллинз - выдающийся ученый, известный своими знаниями в области древнегреческой литературы и культуры. Он внёс значительный вклад в область благодаря своим исследованиям, публикациям и научным стремлениям. С фокусом на греческой поэзии, драме и религии, Коллинз погружался в различные аспекты древнегреческого общества, предлагая ценные идеи по его литературе, мифологии и философским основам. Его работа характеризуется тщательным научным подходом, междисциплинарным подходом и глубоким уважением к сложностям древнего мира. Как уважаемый авторитет в своей области, писания Коллинза продолжают вдохновлять и обогащать наше понимание классической античности.",
+    "genre": "Классика",
+    "book": "URL_к_PDF",
+    "bookAudio": "URL_к_аудио"
+  },
+  "images": {
+    "bigCover": "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/bigPicture.png",
+    "middleCover": "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/middlePicture.png",
+    "averageCover": "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/averagePicture.png",
+    "smallCover": "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/smallPicture.png",
+    "authorImage": "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/authorPicture.png"
+  },
+  "reviews": [
+    {
+      "_id": 356789,
+      "nameUser": "Eleanor Johnson",
+      "date": "17 May 2024",
+      "textUser": "I thoroughly enjoyed reading 'Magic in the Ancient Greek World'. The author's insights into the intricate world of ancient Greek magic were fascinating. The book provided a comprehensive overview of magical beliefs and practices in ancient Greece, and I particularly appreciated the thorough research and analysis. Highly recommended!",
+      "stars": 5
+    },
+    {
+      "_id": 235678,
+      "nameUser": "William Anderson",
+      "date": "12 Apr 2024",
+      "textUser": "A captivating exploration of ancient Greek magic! 'Magic in the Ancient Greek World' offers a deep dive into the mystical realm of the past. I found the book both informative and engaging, with a wealth of intriguing insights.",
+      "stars": 4
+    },
+    {
+      "_id": 789345,
+      "nameUser": "Sophia Martinez",
+      "date": "3 Feb 2024",
+      "textUser": "Fascinating read! 'Magic in the Ancient Greek World' provided a comprehensive understanding of magic in ancient Greece. The author's meticulous research and compelling narrative made it an enriching experience.",
+      "stars": 5
+    },
+    {
+      "_id": 456234,
+      "nameUser": "Oliver Thompson",
+      "date": "8 Jun 2024",
+      "textUser": "An insightful journey into ancient Greek magic! I was captivated by the author's exploration of the intertwining of magic with religion and everyday life. Highly recommend for anyone interested in the subject.",
+      "stars": 5
+    },
+    {
+      "_id": 823456,
+      "nameUser": "Emma Wilson",
+      "date": "19 Mar 2024",
+      "textUser": "A must-read for history enthusiasts! 'Magic in the Ancient Greek World' offers a comprehensive overview of magic in ancient Greece, shedding light on its significance and societal perceptions.",
+      "stars": 4
+    },
+    {
+      "_id": 567823,
+      "nameUser": "James Garcia",
+      "date": "27 Aug 2024",
+      "textUser": "Thoroughly enjoyed reading this book! The author's in-depth analysis of ancient Greek magic was both enlightening and thought-provoking. Highly recommended for anyone interested in ancient history.",
+      "stars": 5
+    },
+    {
+      "_id": 934567,
+      "nameUser": "Isabella Davis",
+      "date": "9 Jan 2024",
+      "textUser": "A fascinating exploration of magic in ancient Greece! 'Magic in the Ancient Greek World' provided valuable insights into the mystical beliefs and practices of the past.",
+      "stars": 4
+    },
+    {
+      "_id": 678345,
+      "nameUser": "Liam Rodriguez",
+      "date": "14 Jul 2024",
+      "textUser": "An engaging read! The author's exploration of ancient Greek magic was both informative and captivating. I particularly enjoyed learning about the various aspects of magic in Greek society.",
+      "stars": 4
+    },
+    {
+      "_id": 345678,
+      "nameUser": "Charlotte Martinez",
+      "date": "22 May 2024",
+      "textUser": "Highly recommend! 'Magic in the Ancient Greek World' offers a fascinating glimpse into the world of ancient Greek magic, exploring its role in religion, philosophy, and everyday life.",
+      "stars": 5
+    },
+    {
+      "_id": 892345,
+      "nameUser": "Noah Taylor",
+      "date": "5 Nov 2024",
+      "textUser": "A captivating exploration of ancient Greek magic! 'Magic in the Ancient Greek World' provided a comprehensive overview of magical beliefs and practices in ancient Greece.",
+      "stars": 5
+    },
+    {
+      "_id": 456789,
+      "nameUser": "Ava Rodriguez",
+      "date": "18 Sep 2024",
+      "textUser": "Thoroughly enjoyed reading this book! The author's insights into ancient Greek magic were both enlightening and thought-provoking. A fascinating journey into the mystical realm of the past.",
+      "stars": 4
+    },
+    {
+      "_id": 678912,
+      "nameUser": "Mia Johnson",
+      "date": "7 Dec 2024",
+      "textUser": "An excellent read! 'Magic in the Ancient Greek World' provided a comprehensive overview of magic in ancient Greece, shedding light on its significance and societal perceptions.",
+      "stars": 5
+    },
+    {
+      "_id": 123456,
+      "nameUser": "Ethan Brown",
+      "date": "11 Aug 2024",
+      "textUser": "Fascinating exploration of ancient Greek magic! 'Magic in the Ancient Greek World' offered valuable insights into the mystical beliefs and practices of the past.",
+      "stars": 4
+    },
+    {
+      "_id": 456123,
+      "nameUser": "Amelia Garcia",
+      "date": "29 Apr 2024",
+      "textUser": "A must-read for history buffs! 'Magic in the Ancient Greek World' provided a captivating glimpse into the world of ancient Greek magic, exploring its role in society and everyday life.",
+      "stars": 5
+    },
+    {
+      "_id": 789123,
+      "nameUser": "Lucas Hernandez",
+      "date": "2 Mar 2024",
+      "textUser": "An insightful journey into ancient Greek magic! 'Magic in the Ancient Greek World' provided a comprehensive overview of magical beliefs and practices in ancient Greece.",
+      "stars": 4
+    },
+    {
+      "_id": 567891,
+      "nameUser": "Harper Smith",
+      "date": "16 Oct 2024",
+      "textUser": "Highly recommend! 'Magic in the Ancient Greek World' offered a fascinating exploration of ancient Greek magic, shedding light on its significance and societal perceptions.",
+      "stars": 5
+    },
+    {
+      "_id": 234567,
+      "nameUser": "Benjamin Taylor",
+      "date": "25 Feb 2024",
+      "textUser": "A captivating read! 'Magic in the Ancient Greek World' provided valuable insights into the mystical beliefs and practices of ancient Greece.",
+      "stars": 4
+    },
+    {
+      "_id": 891234,
+      "nameUser": "Evelyn Martinez",
+      "date": "13 Jun 2024",
+      "textUser": "Thoroughly enjoyed reading this book! 'Magic in the Ancient Greek World' offered a comprehensive overview of magic in ancient Greece, exploring its role in society and everyday life.",
+      "stars": 5
+    },
+    {
+      "_id": 234891,
+      "nameUser": "Alexander Brown",
+      "date": "4 Sep 2024",
+      "textUser": "An excellent exploration of ancient Greek magic! 'Magic in the Ancient Greek World' provided fascinating insights into the mystical beliefs and practices of the past.",
+      "stars": 5
+    }
+  ],
+  "__v": 0
+}]
