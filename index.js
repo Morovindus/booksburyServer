@@ -2,12 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const Book = require('./Structure/Book'); // Импортируем модель Book
-//const User = require('./Structure/Users'); // Импортируем модель User
 
 const app = express();
 const port = 3000;
-
-//const imagesFolderPath = path.join(__dirname, 'Images');
 
 // Импортируем маршруты
 const homeRoutes = require('./Routes/home_page');
@@ -33,6 +30,7 @@ app.use('/api', registrationRoutes);
 
 // Настройка статического обслуживания файлов из папки images
 app.use('/images', express.static(path.join(__dirname, 'Images')));
+app.use('/database', express.static(path.join(__dirname, 'Database')));
 
 app.use(express.json());
 

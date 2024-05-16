@@ -8,172 +8,81 @@ mongoose.connect('mongodb://localhost:27017/booksbury', { useNewUrlParser: true,
 
     // Создаем новую книгу
     const newBook = new Book({
-      _id: '572139',
-      price: 4499,
-      released: 2008,
-      part: 4,
-      page: 223,
+      _id: '190435',
+      price: 1999,
+      released: 2018,
+      part: 1,
+      page: 312,
       en: {
-        title: "Magic_in_the_Ancient_Greek_World_4",
-        synopsis: "In 'Magic in the Ancient Greek World', the author delves into the intricate world of magic as perceived and practiced in ancient Greece. Exploring the various facets of magical beliefs and practices prevalent in the ancient Greek civilization, the book sheds light on how magic was intertwined with religion, philosophy, and everyday life. From spells and incantations to the roles of magicians and the perception of magic in society, this book provides a comprehensive overview of the mystical realm in ancient Greece. Through meticulous research and analysis, it unveils the profound influence of magic on the psyche and culture of the ancient Greeks, offering fascinating insights into this captivating aspect of their civilization.",
-        details: "Magic in the Ancient Greek World’ offers an immersive journey into the rich tapestry of magical beliefs and practices that permeated the ancient Greek society. Delving beyond the surface, the book meticulously examines the multifaceted nature of magic, from its roots in ancient religious rites to its integration into various aspects of daily life. Through a captivating narrative, readers are transported to a world where spells, charms, and rituals held profound significance, shaping the beliefs, behaviors, and destinies of individuals and communities alike. Drawing upon a wealth of archaeological evidence, literary sources, and scholarly insights, the author unravels the complexities of Greek magic, shedding light on its practitioners, techniques, and societal perceptions. This compelling exploration not only illuminates the mystical underpinnings of ancient Greek civilization but also offers valuable perspectives on the enduring allure of magic throughout human history.",
-        authorName: "Derek Collins",
-        authorAbout: "Derek Collins is a distinguished scholar known for his expertise in ancient Greek literature and culture. He has made significant contributions to the field through his research, publications, and academic pursuits. With a focus on Greek poetry, drama, and religion, Collins has delved into various aspects of ancient Greek society, offering valuable insights into its literature, mythology, and philosophical underpinnings. His work is characterized by meticulous scholarship, interdisciplinary approach, and a deep appreciation for the complexities of the ancient world. As a respected authority in his field, Collins's writings continue to inspire and enrich our understanding of classical antiquity.",
-        genre: "Classic",
-        book: "URL_to_PDF",
-        bookAudio: "URL_to_audio"
+        "title": "A History of Babylon, 2200 BC - AD 75",
+        "synopsis": "This comprehensive history of Babylon traces the city's development from its early beginnings to its status as a major center of civilization in the ancient world. Paul-Alan Beaulieu explores the political, social, and cultural aspects of Babylonian life, providing a detailed account of the city's rise to power and its eventual decline. The book covers significant events, notable rulers, and the city's influence on surrounding regions, offering readers a thorough understanding of Babylon's place in history.",
+        "details": "Babylon, one of the most famous cities of antiquity, has left an indelible mark on the history of the ancient Near East. This book delves into the rich tapestry of Babylonian civilization, examining its contributions to law, literature, science, and art. The author meticulously details the reigns of prominent kings such as Hammurabi and Nebuchadnezzar, the construction of iconic structures like the Hanging Gardens and the Ishtar Gate, and the city's role in various conflicts and alliances. Through a blend of archaeological evidence and historical records, 'A History of Babylon' brings the ancient city to life, providing insights into its enduring legacy.",
+        "authorName": "Paul-Alan Beaulieu",
+        "authorAbout": "Paul-Alan Beaulieu is a renowned historian and scholar specializing in the ancient Near East. With a PhD in Assyriology from Harvard University, Beaulieu has dedicated his career to the study of Mesopotamian history and culture. He has published numerous articles and books on the subject, and his research has significantly advanced our understanding of Babylonian civilization. Beaulieu is a professor of ancient history at the University of Toronto, where he continues to inspire students with his passion for the ancient world.",
+        "genre": "Classic",
+        "book": "http://192.168.1.42:3000/Database/books/en/PDF/A_History_of_Babylon_2200_BC_Ad_75.pdf",
+        "bookAudio": "http://192.168.1.42:3000/Database/books/en/Audio/A_History_of_Babylon_2200_BC_Ad_75.mp3"
       },
       ru: {
-        title: "Магия в Древнем Греческом Мире",
-        synopsis: "В книге 'Магия в Древнем Греческом Мире' автор погружается в сложный мир магии, так, как её воспринимали и практиковали в Древней Греции. Исследуя различные аспекты магических верований и практик, преобладавших в древнегреческой цивилизации, книга приоткрывает завесу над тем, как магия переплеталась с религией, философией и повседневной жизнью. От заклинаний и заклинаний до роли магов и восприятия магии в обществе, эта книга предоставляет всесторонний обзор мистического мира в Древней Греции. Через тщательные исследования и анализ автор раскрывает глубокое влияние магии на психику и культуру древних греков, предлагая увлекательные идеи в этом захватывающем аспекте их цивилизации.",
-        details: "Книга 'Магия в Древнем Греческом Мире' предлагает погружение в богатую ткань магических верований и практик, которые проникали в древнегреческое общество. Она детально исследует многогранную природу магии, от её корней в древних религиозных обрядах до её интеграции в различные аспекты повседневной жизни. Через увлекательное повествование читатели переносятся в мир, где заклинания, обереги и обряды имели глубокое значение, формируя верования, поведение и судьбы отдельных личностей и общин в целом. Основываясь на богатом археологическом материале, литературных источниках и научных исследованиях, автор раскрывает сложности греческой магии, проливая свет на её практиков и техники, а также общественное восприятие. Это увлекательное исследование не только проливает свет на мистические основы древнегреческой цивилизации, но и предлагает ценные перспективы на постоянное влечение к магии на протяжении всей истории человечества.",
-        authorName: "Дерек Коллинз",
-        authorAbout: "Дерек Коллинз - выдающийся ученый, известный своими знаниями в области древнегреческой литературы и культуры. Он внёс значительный вклад в область благодаря своим исследованиям, публикациям и научным стремлениям. С фокусом на греческой поэзии, драме и религии, Коллинз погружался в различные аспекты древнегреческого общества, предлагая ценные идеи по его литературе, мифологии и философским основам. Его работа характеризуется тщательным научным подходом, междисциплинарным подходом и глубоким уважением к сложностям древнего мира. Как уважаемый авторитет в своей области, писания Коллинза продолжают вдохновлять и обогащать наше понимание классической античности.",
-        genre: "Классика",
-        book: "URL_к_PDF",
-        bookAudio: "URL_к_аудио"
+        "title": "История Вавилона, 2200 до н.э. - 75 н.э.",
+        "synopsis": "Эта всеобъемлющая история Вавилона прослеживает развитие города с его ранних начал до его статуса как крупного центра цивилизации в древнем мире. Пол-Алан Больё исследует политические, социальные и культурные аспекты жизни вавилонян, предоставляя подробный отчет о подъеме города к власти и его окончательном упадке. Книга охватывает значимые события, известных правителей и влияние города на окружающие регионы, предлагая читателям полное понимание места Вавилона в истории.",
+        "details": "Вавилон, один из самых известных городов древности, оставил неизгладимый след в истории древнего Ближнего Востока. Эта книга углубляется в богатую ткань вавилонской цивилизации, исследуя её вклад в право, литературу, науку и искусство. Автор тщательно описывает правления выдающихся царей, таких как Хаммурапи и Навуходоносор, строительство знаковых сооружений, таких как Висячие сады и Ворота Иштар, и роль города в различных конфликтах и союзах. Сочетая археологические данные и исторические записи, 'История Вавилона' оживляет древний город, предоставляя понимание его долговечного наследия.",
+        "authorName": "Пол-Алан Больё",
+        "authorAbout": "Пол-Алан Больё — известный историк и ученый, специализирующийся на древнем Ближнем Востоке. С докторской степенью по ассириологии из Гарвардского университета, Больё посвятил свою карьеру изучению истории и культуры Месопотамии. Он опубликовал множество статей и книг по этой теме, и его исследования значительно продвинули наше понимание вавилонской цивилизации. Больё является профессором древней истории в Торонтском университете, где он продолжает вдохновлять студентов своей страстью к древнему миру.",
+        "genre": "Классика",
+        "book": "http://192.168.1.42:3000/Database/books/ru/PDF/A_History_of_Babylon_2200_BC_Ad_75.pdf",
+        "bookAudio": "http://192.168.1.42:3000/Database/books/ru/Audio/A_History_of_Babylon_2200_BC_Ad_75.mp3"
       },
 
       images: {
-        bigCover: "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/bigPicture.png",
-        middleCover: "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/middlePicture.png",
-        averageCover: "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/averagePicture.png",
-        smallCover: "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/smallPicture.png",
-        authorImage: "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/authorPicture.png"
+        bigCover: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/bigPicture.png",
+        middleCover: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/middlePicture.png",
+        averageCover: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/averagePicture.png",
+        smallCover: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/smallPicture.png",
+        authorImage: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/authorPicture.png"
       },
 
       reviews: [
         {
-          "_id": 356789,
-          "nameUser": "Eleanor Johnson",
-          "date": "17 May 2024",
-          "textUser": "I thoroughly enjoyed reading 'Magic in the Ancient Greek World'. The author's insights into the intricate world of ancient Greek magic were fascinating. The book provided a comprehensive overview of magical beliefs and practices in ancient Greece, and I particularly appreciated the thorough research and analysis. Highly recommended!",
-          "stars": 5
-        },
-        {
-          "_id": 235678,
-          "nameUser": "William Anderson",
-          "date": "12 Apr 2024",
-          "textUser": "A captivating exploration of ancient Greek magic! 'Magic in the Ancient Greek World' offers a deep dive into the mystical realm of the past. I found the book both informative and engaging, with a wealth of intriguing insights.",
+          "_id": 548726,
+          "nameUser": "Ethan Anderson",
+          "date": "10 Jan 2024",
+          "textUser": "An incredible read! 'A History of Babylon, 2200 BC - AD 75' offers a detailed and fascinating exploration of Babylonian history. The author's thorough research and engaging narrative make this book a must-read.",
           "stars": 4
         },
         {
-          "_id": 789345,
-          "nameUser": "Sophia Martinez",
-          "date": "3 Feb 2024",
-          "textUser": "Fascinating read! 'Magic in the Ancient Greek World' provided a comprehensive understanding of magic in ancient Greece. The author's meticulous research and compelling narrative made it an enriching experience.",
-          "stars": 5
-        },
-        {
-          "_id": 456234,
-          "nameUser": "Oliver Thompson",
-          "date": "8 Jun 2024",
-          "textUser": "An insightful journey into ancient Greek magic! I was captivated by the author's exploration of the intertwining of magic with religion and everyday life. Highly recommend for anyone interested in the subject.",
-          "stars": 5
-        },
-        {
-          "_id": 823456,
-          "nameUser": "Emma Wilson",
-          "date": "19 Mar 2024",
-          "textUser": "A must-read for history enthusiasts! 'Magic in the Ancient Greek World' offers a comprehensive overview of magic in ancient Greece, shedding light on its significance and societal perceptions.",
+          "_id": 672849,
+          "nameUser": "Sophia Wilson",
+          "date": "22 Feb 2024",
+          "textUser": "A comprehensive overview of Babylon's history! The book delves into the rich history of Babylon, offering insights into its culture, politics, and significant events. Highly recommended for history enthusiasts.",
           "stars": 4
         },
         {
-          "_id": 567823,
-          "nameUser": "James Garcia",
-          "date": "27 Aug 2024",
-          "textUser": "Thoroughly enjoyed reading this book! The author's in-depth analysis of ancient Greek magic was both enlightening and thought-provoking. Highly recommended for anyone interested in ancient history.",
-          "stars": 5
-        },
-        {
-          "_id": 934567,
-          "nameUser": "Isabella Davis",
-          "date": "9 Jan 2024",
-          "textUser": "A fascinating exploration of magic in ancient Greece! 'Magic in the Ancient Greek World' provided valuable insights into the mystical beliefs and practices of the past.",
+          "_id": 893745,
+          "nameUser": "Liam Johnson",
+          "date": "14 Mar 2024",
+          "textUser": "Fascinating and informative! 'A History of Babylon, 2200 BC - AD 75' provided a thorough understanding of Babylonian history. The author's meticulous research and engaging writing style made it a pleasure to read.",
           "stars": 4
         },
         {
-          "_id": 678345,
-          "nameUser": "Liam Rodriguez",
-          "date": "14 Jul 2024",
-          "textUser": "An engaging read! The author's exploration of ancient Greek magic was both informative and captivating. I particularly enjoyed learning about the various aspects of magic in Greek society.",
+          "_id": 245687,
+          "nameUser": "Isabella Martinez",
+          "date": "6 Apr 2024",
+          "textUser": "An excellent exploration of Babylon's past! The book offers a detailed look into the history of Babylon, from its early days to the AD 75 period. A must-read for anyone interested in ancient history.",
+          "stars": 3
+        },
+        {
+          "_id": 678123,
+          "nameUser": "James Davis",
+          "date": "18 May 2024",
+          "textUser": "Highly engaging and informative! 'A History of Babylon, 2200 BC - AD 75' provides an in-depth look into Babylonian history, shedding light on its culture and significant historical events. Highly recommended!",
           "stars": 4
         },
         {
-          "_id": 345678,
-          "nameUser": "Charlotte Martinez",
-          "date": "22 May 2024",
-          "textUser": "Highly recommend! 'Magic in the Ancient Greek World' offers a fascinating glimpse into the world of ancient Greek magic, exploring its role in religion, philosophy, and everyday life.",
-          "stars": 5
-        },
-        {
-          "_id": 892345,
-          "nameUser": "Noah Taylor",
-          "date": "5 Nov 2024",
-          "textUser": "A captivating exploration of ancient Greek magic! 'Magic in the Ancient Greek World' provided a comprehensive overview of magical beliefs and practices in ancient Greece.",
-          "stars": 5
-        },
-        {
-          "_id": 456789,
-          "nameUser": "Ava Rodriguez",
-          "date": "18 Sep 2024",
-          "textUser": "Thoroughly enjoyed reading this book! The author's insights into ancient Greek magic were both enlightening and thought-provoking. A fascinating journey into the mystical realm of the past.",
-          "stars": 4
-        },
-        {
-          "_id": 678912,
-          "nameUser": "Mia Johnson",
-          "date": "7 Dec 2024",
-          "textUser": "An excellent read! 'Magic in the Ancient Greek World' provided a comprehensive overview of magic in ancient Greece, shedding light on its significance and societal perceptions.",
-          "stars": 5
-        },
-        {
-          "_id": 123456,
-          "nameUser": "Ethan Brown",
-          "date": "11 Aug 2024",
-          "textUser": "Fascinating exploration of ancient Greek magic! 'Magic in the Ancient Greek World' offered valuable insights into the mystical beliefs and practices of the past.",
-          "stars": 4
-        },
-        {
-          "_id": 456123,
-          "nameUser": "Amelia Garcia",
-          "date": "29 Apr 2024",
-          "textUser": "A must-read for history buffs! 'Magic in the Ancient Greek World' provided a captivating glimpse into the world of ancient Greek magic, exploring its role in society and everyday life.",
-          "stars": 5
-        },
-        {
-          "_id": 789123,
-          "nameUser": "Lucas Hernandez",
-          "date": "2 Mar 2024",
-          "textUser": "An insightful journey into ancient Greek magic! 'Magic in the Ancient Greek World' provided a comprehensive overview of magical beliefs and practices in ancient Greece.",
-          "stars": 4
-        },
-        {
-          "_id": 567891,
-          "nameUser": "Harper Smith",
-          "date": "16 Oct 2024",
-          "textUser": "Highly recommend! 'Magic in the Ancient Greek World' offered a fascinating exploration of ancient Greek magic, shedding light on its significance and societal perceptions.",
-          "stars": 5
-        },
-        {
-          "_id": 234567,
-          "nameUser": "Benjamin Taylor",
-          "date": "25 Feb 2024",
-          "textUser": "A captivating read! 'Magic in the Ancient Greek World' provided valuable insights into the mystical beliefs and practices of ancient Greece.",
-          "stars": 4
-        },
-        {
-          "_id": 891234,
-          "nameUser": "Evelyn Martinez",
-          "date": "13 Jun 2024",
-          "textUser": "Thoroughly enjoyed reading this book! 'Magic in the Ancient Greek World' offered a comprehensive overview of magic in ancient Greece, exploring its role in society and everyday life.",
-          "stars": 5
-        },
-        {
-          "_id": 234891,
-          "nameUser": "Alexander Brown",
-          "date": "4 Sep 2024",
-          "textUser": "An excellent exploration of ancient Greek magic! 'Magic in the Ancient Greek World' provided fascinating insights into the mystical beliefs and practices of the past.",
+          "_id": 345789,
+          "nameUser": "Emily Taylor",
+          "date": "30 Jun 2024",
+          "textUser": "A captivating read! The book offers a thorough exploration of Babylon's history, culture, and key events. The author's research and writing are top-notch. A highly recommended read for history lovers.",
           "stars": 5
         }
       ]

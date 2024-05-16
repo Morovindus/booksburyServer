@@ -6,8 +6,8 @@ const userSchema = new mongoose.Schema({
   email: String,
   password: String,
   notifications: [{
-    title: String,
-    time: Date,
+    bookId: Number,
+    time: String,
     image: String
   }],
   purchasedBooks: [Number],

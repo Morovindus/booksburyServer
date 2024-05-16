@@ -27,15 +27,38 @@
   "username": "Mark Knyazev",
   "email": "markela2604@yandex.ru",
   "password": "1234",
-  "notifications": [],
+  "notifications": [
+    {
+      "bookId": 124729,
+      "time": "11:20 16 May 2024",
+      "image": "http://192.168.1.42:3000/Images/The_Homeric_Hymns/smallPicture.png",
+      "_id": {
+        "$oid": "6645ebec440c6cd2b5e0d95c"
+      }
+    },
+    {
+      "bookId": 572139,
+      "time": "13:33 16 May 2024",
+      "image": "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/smallPicture.png",
+      "_id": {
+        "$oid": "66460b17cc190081b317ace2"
+      }
+    },
+    {
+      "bookId": 190435,
+      "time": "22:11 16 May 2024",
+      "image": "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/smallPicture.png",
+      "_id": {
+        "$oid": "66465a5c3ebe72f907deb8ed"
+      }
+    }
+  ],
   "purchasedBooks": [
-    "124729"
+    124729,
+    572139,
+    190435
   ],
-  "favoriteBooks": [
-    124729
-  ],
-  "cart": [
-    946107
-  ],
-  "__v": 27
+  "favoriteBooks": [],
+  "cart": [],
+  "__v": 67
 }]
