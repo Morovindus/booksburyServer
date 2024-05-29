@@ -42,13 +42,13 @@ router.get('/book/bookById/:bookId/:lang/:imageType', async (req, res) => {
 
     // Формируем объект с данными книги и средней оценкой
     const formattedBook = {
-      _id: book._id,
-      price: book.price,
-      title: book[lang].title,
-      authorName: book[lang].authorName,
-      [imageType]: book.images[imageType], // Добавляем поле для выбранного типа изображения
+      id: book._id,
+      imageResource: book.images[imageType],
+      titleBook: book[lang].title,
+      nameAuthor: book[lang].authorName,
+      stars: averageStars,
       ratings,
-      averageStars
+      price: book.price
     };
 
     // Возвращаем отформатированную книгу

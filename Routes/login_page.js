@@ -5,21 +5,21 @@ const User = require('../Structure/Users');
 
 // Запрос на получение id пользователя по имени
 router.get('/get_user_id/:username', async (req, res) => {
-  const username = req.params.username;
-  
-  try {
-      // Поиск пользователя в базе данных по имени
-      const user = await User.findOne({ username: username });
-      if (user) {
-          res.json({ id: user._id }); // Если пользователь найден, возвращаем его id
-      } else {
-          res.status(404).json({ message: 'Пользователь не найден' }); // Если пользователь не найден, возвращаем ошибку 404
-      }
-  } catch (err) {
-      console.error('Ошибка при получении id пользователя:', err);
-      res.status(500).json({ message: 'Ошибка сервера' });
-  }
-});
+    const username = req.params.username;
+    
+    try {
+        // Поиск пользователя в базе данных по имени
+        const user = await User.findOne({ username: username });
+        if (user) {
+            res.send(user._id.toString()); // Если пользователь найден, возвращаем его id в виде строки
+        } else {
+            res.status(404).send('Пользователь не найден'); // Если пользователь не найден, возвращаем ошибку 404
+        }
+    } catch (err) {
+        console.error('Ошибка при получении id пользователя:', err);
+        res.status(500).send('Ошибка сервера');
+    }
+  });
 
 // Запрос на проверку имени пользователя
 router.get('/check_username/:username', async (req, res) => {
@@ -29,9 +29,9 @@ router.get('/check_username/:username', async (req, res) => {
       // Проверка имени пользователя в базе данных
       const user = await User.findOne({ username: username });
       if (user) {
-          res.json({ exists: true }); // Если пользователь существует, возвращаем true
+        res.send('true'); // Если пользователь существует, возвращаем true
       } else {
-          res.json({ exists: false }); // Если пользователь не существует, возвращаем false
+        res.send('false'); // Если пользователь не существует, возвращаем false
       }
   } catch (err) {
       console.error('Ошибка при проверке имени пользователя:', err);
@@ -48,13 +48,13 @@ router.get('/check_password/:username/:password', async (req, res) => {
       // Проверка совпадения пароля для указанного имени пользователя
       const user = await User.findOne({ username: username, password: password });
       if (user) {
-          res.json({ match: true }); // Если пароль совпадает, возвращаем true
+          res.send('true'); // Если пароль совпадает, возвращаем "true"
       } else {
-          res.json({ match: false }); // Если пароль не совпадает, возвращаем false
+          res.send('false'); // Если пароль не совпадает, возвращаем "false"
       }
   } catch (err) {
       console.error('Ошибка при проверке пароля:', err);
-      res.status(500).json({ message: 'Ошибка сервера' });
+      res.status(500).send('false'); // В случае ошибки также возвращаем "false"
   }
 });
 

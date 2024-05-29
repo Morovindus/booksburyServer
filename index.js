@@ -1,7 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
-const Book = require('./Structure/Book'); // Импортируем модель Book
 
 const app = express();
 const port = 3000;
@@ -24,7 +23,7 @@ app.use('/api/user', profileRoutes);
 app.use('', booksRoutes);
 app.use('/api/books', bookInfoRoutes);
 app.use('/api/users', favoriteRoutes);
-app.use('', exploreRoutes);
+app.use('/api/users', exploreRoutes);
 app.use('/api', loginRoutes);
 app.use('/api', registrationRoutes);
 
@@ -32,25 +31,10 @@ app.use('/api', registrationRoutes);
 app.use('/images', express.static(path.join(__dirname, 'Images')));
 app.use('/database', express.static(path.join(__dirname, 'Database')));
 
-app.use(express.json());
-
-
 // Подключение к MongoDB
 mongoose.connect('mongodb://localhost:27017/booksbury')
   .then(() => console.log('Подключение к MongoDB успешно'))
   .catch(err => console.error('Ошибка подключения к MongoDB:', err));
-
-
-// Маршрут для получения всех книг
-app.get('/api/books', async (req, res) => {
-  try {
-    const books = await Book.find();
-    res.json(books);
-  } catch (err) {
-    res.status(500).json({ message: 'Ошибка получения данных из базы данных' });
-  }
-});
-
 
 app.listen(port, () => {
   console.log(`Сервер запущен на http://localhost:${port}`);

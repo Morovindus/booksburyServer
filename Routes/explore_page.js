@@ -32,7 +32,7 @@ router.post('/add_favorite/:userId/:bookId', async (req, res) => {
   });
 
 // Маршрут для удаления книги из избранного по id книги и id пользователя
-router.delete('/api/users/:userId/deleteFavorite/:bookId', async (req, res) => {
+router.delete('/:userId/deleteFavorite/:bookId', async (req, res) => {
     try {
       const userId = req.params.userId;
       const bookId = req.params.bookId;
@@ -79,7 +79,7 @@ router.get('/:userId/cart/:bookId', async (req, res) => {
     const isBookInCart = user.cart.includes(bookId);
 
     // Возвращаем результат проверки
-    res.json({ isBookInCart });
+    res.send(isBookInCart);
   } catch (err) {
     res.status(500).json({ message: 'Ошибка проверки книги в корзине пользователя', error: err });
   }
@@ -88,7 +88,7 @@ router.get('/:userId/cart/:bookId', async (req, res) => {
 // Маршрут для проверки наличия книги в купленных книга пользователя по ID пользователя и ID книги
 router.get('/:userId/purchasedBooks/:bookId', async (req, res) => {
     try {
-      const userId = req.params.userId;
+      const userId = Number(req.params.userId);
       const bookId = Number(req.params.bookId);
   
       // Ищем пользователя по ID
@@ -103,7 +103,7 @@ router.get('/:userId/purchasedBooks/:bookId', async (req, res) => {
       const isBookPurchased = user.purchasedBooks.includes(bookId);
   
       // Возвращаем результат проверки
-      res.json({ isBookPurchased });
+      res.send(isBookPurchased);
     } catch (err) {
       res.status(500).json({ message: 'Ошибка проверки книги в купленных книгах', error: err });
     }
@@ -112,7 +112,7 @@ router.get('/:userId/purchasedBooks/:bookId', async (req, res) => {
 // Маршрут для проверки наличия книги в избранных книгах пользователя по ID пользователя и ID книги
 router.get('/:userId/favoriteBooks/:bookId', async (req, res) => {
     try {
-      const userId = req.params.userId;
+      const userId = Number(req.params.userId);
       const bookId = Number(req.params.bookId);
   
       // Ищем пользователя по ID
@@ -127,7 +127,7 @@ router.get('/:userId/favoriteBooks/:bookId', async (req, res) => {
       const isBookFavorite = user.favoriteBooks.includes(bookId);
   
       // Возвращаем результат проверки
-      res.json({ isBookFavorite });
+      res.send(isBookFavorite);
     } catch (err) {
       res.status(500).json({ message: 'Ошибка проверки книги в избранных книгах', error: err });
     }

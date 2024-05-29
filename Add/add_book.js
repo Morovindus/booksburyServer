@@ -8,81 +8,178 @@ mongoose.connect('mongodb://localhost:27017/booksbury', { useNewUrlParser: true,
 
     // Создаем новую книгу
     const newBook = new Book({
-      _id: '190435',
-      price: 1999,
-      released: 2018,
+      _id: '190430',
+      price: 1500,
+      released: -380,
       part: 1,
-      page: 312,
+      page: 416,
       en: {
-        "title": "A History of Babylon, 2200 BC - AD 75",
-        "synopsis": "This comprehensive history of Babylon traces the city's development from its early beginnings to its status as a major center of civilization in the ancient world. Paul-Alan Beaulieu explores the political, social, and cultural aspects of Babylonian life, providing a detailed account of the city's rise to power and its eventual decline. The book covers significant events, notable rulers, and the city's influence on surrounding regions, offering readers a thorough understanding of Babylon's place in history.",
-        "details": "Babylon, one of the most famous cities of antiquity, has left an indelible mark on the history of the ancient Near East. This book delves into the rich tapestry of Babylonian civilization, examining its contributions to law, literature, science, and art. The author meticulously details the reigns of prominent kings such as Hammurabi and Nebuchadnezzar, the construction of iconic structures like the Hanging Gardens and the Ishtar Gate, and the city's role in various conflicts and alliances. Through a blend of archaeological evidence and historical records, 'A History of Babylon' brings the ancient city to life, providing insights into its enduring legacy.",
-        "authorName": "Paul-Alan Beaulieu",
-        "authorAbout": "Paul-Alan Beaulieu is a renowned historian and scholar specializing in the ancient Near East. With a PhD in Assyriology from Harvard University, Beaulieu has dedicated his career to the study of Mesopotamian history and culture. He has published numerous articles and books on the subject, and his research has significantly advanced our understanding of Babylonian civilization. Beaulieu is a professor of ancient history at the University of Toronto, where he continues to inspire students with his passion for the ancient world.",
-        "genre": "Classic",
-        "book": "http://192.168.1.42:3000/Database/books/en/PDF/A_History_of_Babylon_2200_BC_Ad_75.pdf",
-        "bookAudio": "http://192.168.1.42:3000/Database/books/en/Audio/A_History_of_Babylon_2200_BC_Ad_75.mp3"
+        "title": "The Republic",
+        "synopsis": "Plato's 'The Republic' is a seminal work in Western philosophy, exploring the meaning of justice, the nature of a just society, and the role of the individual within it. Through a series of dialogues, primarily between Socrates and other Athenians, Plato examines the ideal state and the philosopher-king who would rule it.",
+        "details": "'The Republic' delves into various philosophical themes, including the theory of forms, the immortality of the soul, and the role of education. Plato's vision of a utopian society is both a critique of contemporary Athenian politics and a timeless reflection on the human condition. The dialogues discuss the virtues necessary for the ruling class, the structure of the ideal city-state, and the relationship between the individual and the collective.",
+        "authorName": "Plato",
+        "authorAbout": "Plato was a philosopher in Classical Greece and the founder of the Academy in Athens, the first institution of higher learning in the Western world. A student of Socrates and the teacher of Aristotle, Plato's works have profoundly influenced Western thought and philosophy.",
+        "genre": "Philosophy",
+        "book": "http://192.168.1.42:3000/Database/books/en/PDF/The_Republic.pdf",
+        "bookAudio": "http://192.168.1.42:3000/Database/books/en/Audio/The_Republic.mp3"
       },
       ru: {
-        "title": "История Вавилона, 2200 до н.э. - 75 н.э.",
-        "synopsis": "Эта всеобъемлющая история Вавилона прослеживает развитие города с его ранних начал до его статуса как крупного центра цивилизации в древнем мире. Пол-Алан Больё исследует политические, социальные и культурные аспекты жизни вавилонян, предоставляя подробный отчет о подъеме города к власти и его окончательном упадке. Книга охватывает значимые события, известных правителей и влияние города на окружающие регионы, предлагая читателям полное понимание места Вавилона в истории.",
-        "details": "Вавилон, один из самых известных городов древности, оставил неизгладимый след в истории древнего Ближнего Востока. Эта книга углубляется в богатую ткань вавилонской цивилизации, исследуя её вклад в право, литературу, науку и искусство. Автор тщательно описывает правления выдающихся царей, таких как Хаммурапи и Навуходоносор, строительство знаковых сооружений, таких как Висячие сады и Ворота Иштар, и роль города в различных конфликтах и союзах. Сочетая археологические данные и исторические записи, 'История Вавилона' оживляет древний город, предоставляя понимание его долговечного наследия.",
-        "authorName": "Пол-Алан Больё",
-        "authorAbout": "Пол-Алан Больё — известный историк и ученый, специализирующийся на древнем Ближнем Востоке. С докторской степенью по ассириологии из Гарвардского университета, Больё посвятил свою карьеру изучению истории и культуры Месопотамии. Он опубликовал множество статей и книг по этой теме, и его исследования значительно продвинули наше понимание вавилонской цивилизации. Больё является профессором древней истории в Торонтском университете, где он продолжает вдохновлять студентов своей страстью к древнему миру.",
-        "genre": "Классика",
-        "book": "http://192.168.1.42:3000/Database/books/ru/PDF/A_History_of_Babylon_2200_BC_Ad_75.pdf",
-        "bookAudio": "http://192.168.1.42:3000/Database/books/ru/Audio/A_History_of_Babylon_2200_BC_Ad_75.mp3"
+        "title": "Государство",
+        "synopsis": "'Государство' Платона — это основополагающее произведение в западной философии, исследующее смысл справедливости, природу справедливого общества и роль личности в нем. Через серию диалогов, главным образом между Сократом и другими афинянами, Платон рассматривает идеальное государство и философа-царя, который должен им править.",
+        "details": "'Государство' углубляется в различные философские темы, включая теорию форм, бессмертие души и роль образования. Видение Платона утопического общества является одновременно критикой современной ему афинской политики и вечным размышлением о человеческой природе. Диалоги обсуждают добродетели, необходимые правящему классу, структуру идеального города-государства и взаимоотношения между личностью и коллективом.",
+        "authorName": "Платон",
+        "authorAbout": "Платон был философом классической Греции и основателем Академии в Афинах, первого высшего учебного заведения в западном мире. Ученик Сократа и учитель Аристотеля, работы Платона глубоко повлияли на западную мысль и философию.",
+        "genre": "Философия",
+        "book": "http://192.168.1.42:3000/Database/books/ru/PDF/The_Republic.pdf",
+        "bookAudio": "http://192.168.1.42:3000/Database/books/ru/Audio/The_Republic.mp3"
       },
-
       images: {
-        bigCover: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/bigPicture.png",
-        middleCover: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/middlePicture.png",
-        averageCover: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/averagePicture.png",
-        smallCover: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/smallPicture.png",
-        authorImage: "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/authorPicture.png"
+        bigCover: "http://192.168.1.42:3000/Images/The_Republic/bigPicture.png",
+        middleCover: "http://192.168.1.42:3000/Images/The_Republic/middlePicture.png",
+        averageCover: "http://192.168.1.42:3000/Images/The_Republic/averagePicture.png",
+        smallCover: "http://192.168.1.42:3000/Images/The_Republic/smallPicture.png",
+        authorImage: "http://192.168.1.42:3000/Images/The_Republic/authorPicture.png"
       },
 
       reviews: [
         {
-          "_id": 548726,
+          "_id": 654321,
           "nameUser": "Ethan Anderson",
           "date": "10 Jan 2024",
-          "textUser": "An incredible read! 'A History of Babylon, 2200 BC - AD 75' offers a detailed and fascinating exploration of Babylonian history. The author's thorough research and engaging narrative make this book a must-read.",
-          "stars": 4
+          "textUser": "A timeless classic! 'The Republic' by Plato offers profound insights into justice, society, and the human soul. The philosophical arguments are as relevant today as they were in ancient times.",
+          "stars": 5
         },
         {
-          "_id": 672849,
+          "_id": 876543,
           "nameUser": "Sophia Wilson",
           "date": "22 Feb 2024",
-          "textUser": "A comprehensive overview of Babylon's history! The book delves into the rich history of Babylon, offering insights into its culture, politics, and significant events. Highly recommended for history enthusiasts.",
-          "stars": 4
+          "textUser": "A must-read for anyone interested in philosophy! Plato's 'The Republic' delves deep into concepts of justice, politics, and morality. The dialogues are thought-provoking and engaging.",
+          "stars": 5
         },
         {
-          "_id": 893745,
+          "_id": 432189,
           "nameUser": "Liam Johnson",
           "date": "14 Mar 2024",
-          "textUser": "Fascinating and informative! 'A History of Babylon, 2200 BC - AD 75' provided a thorough understanding of Babylonian history. The author's meticulous research and engaging writing style made it a pleasure to read.",
-          "stars": 4
+          "textUser": "An enlightening read! 'The Republic' presents complex philosophical ideas in a dialogue format that is both engaging and intellectually stimulating. A foundational text in Western philosophy.",
+          "stars": 5
         },
         {
-          "_id": 245687,
+          "_id": 564738,
           "nameUser": "Isabella Martinez",
           "date": "6 Apr 2024",
-          "textUser": "An excellent exploration of Babylon's past! The book offers a detailed look into the history of Babylon, from its early days to the AD 75 period. A must-read for anyone interested in ancient history.",
-          "stars": 3
+          "textUser": "A profound exploration of justice and society. Plato's 'The Republic' is a thought-provoking work that challenges readers to think deeply about the nature of a just society.",
+          "stars": 5
         },
         {
-          "_id": 678123,
+          "_id": 789456,
           "nameUser": "James Davis",
           "date": "18 May 2024",
-          "textUser": "Highly engaging and informative! 'A History of Babylon, 2200 BC - AD 75' provides an in-depth look into Babylonian history, shedding light on its culture and significant historical events. Highly recommended!",
-          "stars": 4
+          "textUser": "Highly recommended for students of philosophy! 'The Republic' by Plato explores essential themes of justice, governance, and the ideal state through Socratic dialogue.",
+          "stars": 5
         },
         {
-          "_id": 345789,
+          "_id": 321789,
           "nameUser": "Emily Taylor",
           "date": "30 Jun 2024",
-          "textUser": "A captivating read! The book offers a thorough exploration of Babylon's history, culture, and key events. The author's research and writing are top-notch. A highly recommended read for history lovers.",
+          "textUser": "A captivating philosophical journey! 'The Republic' offers deep insights into Plato's vision of a just society and the philosopher-king. The dialogues are rich with meaning and relevance.",
+          "stars": 5
+        },
+        {
+          "_id": 987654,
+          "nameUser": "Noah Brown",
+          "date": "12 Jul 2024",
+          "textUser": "A cornerstone of Western philosophy! 'The Republic' by Plato explores profound questions about justice, governance, and the ideal state. A challenging but rewarding read.",
+          "stars": 5
+        },
+        {
+          "_id": 456789,
+          "nameUser": "Olivia Garcia",
+          "date": "24 Aug 2024",
+          "textUser": "An essential read for anyone interested in political philosophy! 'The Republic' offers a comprehensive examination of justice, the ideal state, and the role of the philosopher in society.",
+          "stars": 5
+        },
+        {
+          "_id": 321456,
+          "nameUser": "William Hernandez",
+          "date": "5 Sep 2024",
+          "textUser": "A timeless masterpiece! Plato's 'The Republic' explores fundamental questions about justice and the ideal state through engaging dialogues. A must-read for philosophy enthusiasts.",
+          "stars": 5
+        },
+        {
+          "_id": 789123,
+          "nameUser": "Ava Martinez",
+          "date": "17 Oct 2024",
+          "textUser": "Thought-provoking and profound! 'The Republic' by Plato examines the nature of justice and the ideal society. The philosophical discussions are as relevant today as they were in ancient Greece.",
+          "stars": 5
+        },
+        {
+          "_id": 654987,
+          "nameUser": "Lucas Thompson",
+          "date": "29 Nov 2024",
+          "textUser": "A must-read for any student of philosophy! 'The Republic' presents Plato's vision of a just society and the philosopher-king through compelling dialogues. Rich with intellectual depth.",
+          "stars": 5
+        },
+        {
+          "_id": 123789,
+          "nameUser": "Mia Johnson",
+          "date": "11 Dec 2024",
+          "textUser": "An enlightening journey into the world of Plato's philosophy! 'The Republic' offers profound insights into justice, governance, and the human soul. A foundational text in Western thought.",
+          "stars": 5
+        },
+        {
+          "_id": 456123,
+          "nameUser": "Ethan Robinson",
+          "date": "23 Jan 2024",
+          "textUser": "A deep and thought-provoking read! 'The Republic' by Plato explores complex ideas about justice, politics, and the ideal state through engaging Socratic dialogues.",
+          "stars": 5
+        },
+        {
+          "_id": 987321,
+          "nameUser": "Emma Gonzalez",
+          "date": "5 Feb 2024",
+          "textUser": "A profound exploration of justice and the ideal state! Plato's 'The Republic' presents philosophical arguments that challenge readers to think deeply about society and governance.",
+          "stars": 5
+        },
+        {
+          "_id": 789654,
+          "nameUser": "Oliver Smith",
+          "date": "17 Mar 2024",
+          "textUser": "An essential text in Western philosophy! 'The Republic' by Plato offers a detailed examination of justice, the ideal society, and the role of the philosopher. A must-read for anyone interested in philosophy.",
+          "stars": 5
+        },
+        {
+          "_id": 456789,
+          "nameUser": "Charlotte Martinez",
+          "date": "29 Apr 2024",
+          "textUser": "Highly engaging and intellectually stimulating! 'The Republic' presents Plato's vision of a just society through thought-provoking dialogues. A foundational work in political philosophy.",
+          "stars": 5
+        },
+        {
+          "_id": 321987,
+          "nameUser": "James Lewis",
+          "date": "10 May 2024",
+          "textUser": "A captivating journey through Plato's philosophy! 'The Republic' offers profound insights into justice, the ideal state, and the role of the philosopher in society. A challenging but rewarding read.",
+          "stars": 5
+        },
+        {
+          "_id": 654123,
+          "nameUser": "Amelia Harris",
+          "date": "22 Jun 2024",
+          "textUser": "An intellectually enriching read! 'The Republic' by Plato explores complex philosophical ideas through engaging dialogues. A must-read for anyone interested in justice and political philosophy.",
+          "stars": 5
+        },
+        {
+          "_id": 789456,
+          "nameUser": "Alexander Clark",
+          "date": "4 Jul 2024",
+          "textUser": "A profound and thought-provoking exploration of justice and society! 'The Republic' by Plato presents philosophical arguments that challenge readers to think deeply about the nature of a just society.",
+          "stars": 5
+        },
+        {
+          "_id": 123654,
+          "nameUser": "Evelyn Rodriguez",
+          "date": "16 Aug 2024",
+          "textUser": "A timeless philosophical masterpiece! 'The Republic' by Plato offers deep insights into justice, the ideal state, and the human soul. The dialogues are engaging and intellectually stimulating.",
           "stars": 5
         }
       ]

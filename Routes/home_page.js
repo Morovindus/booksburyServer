@@ -3,6 +3,49 @@ const router = express.Router();
 
 const Book = require('../Structure/Book.js');
 
+router.use(express.json());
+
+// Маршрут для поиска книг по названию
+router.get('/search', async (req, res) => {
+  const query = req.query.query;
+  const language = req.query.language;
+
+  try {
+    const languageField = `${language}.title`;
+
+    const books = await Book.find({
+      [languageField]: { $regex: query, $options: 'i' }
+    });
+
+    if (books.length === 0 || query == "") {
+      return res.status(404).json({ message: 'Книги не найдены' });
+    }
+
+    // Преобразуем каждую книгу, чтобы возвращать только необходимые поля
+    const formattedBooks = books.map(book => ({
+      id: book._id,
+      imageResource: book.images.smallCover,
+      titleBook: book[language].title,
+      nameAuthor: book[language].authorName,
+      stars: calculateAverageStars(book.reviews),
+      ratings: book.reviews.length,
+      price: book.price
+    }));
+
+    res.json(formattedBooks);
+  } catch (err) {
+    res.status(500).json({ message: 'Ошибка получения данных из базы данных', error: err });
+  }
+});
+
+// Функция для вычисления средней оценки
+function calculateAverageStars(reviews) {
+  if (reviews.length === 0) return 0;
+  
+  const totalStars = reviews.reduce((acc, review) => acc + review.stars, 0);
+  return Math.round(totalStars / reviews.length); // Округляем результат до ближайшего целого числа
+}
+
 // Маршрут для получения 1 случайной книги
 router.get('/randomBook/:lang/:imageType', async (req, res) => {
   try {
@@ -33,23 +76,15 @@ router.get('/randomBook/:lang/:imageType', async (req, res) => {
       return res.status(404).json({ message: 'Книга не найдена' });
     }
 
-    // Вычисляем среднюю оценку и количество отзывов
-    const ratings = randomBook[0].reviews.length;
-    let averageStars = 0;
-    if (ratings > 0) {
-      const totalStars = randomBook[0].reviews.reduce((acc, review) => acc + review.stars, 0);
-      averageStars = Math.round(totalStars / ratings); // Округляем результат до ближайшего целого числа
-    }
-
     // Формируем объект с данными книги и средней оценкой
     const formattedBook = {
-      _id: randomBook[0]._id,
-      price: randomBook[0].price,
-      title: randomBook[0][lang].title,
-      authorName: randomBook[0][lang].authorName,
-      [imageType]: randomBook[0].images[imageType], // Добавляем поле для выбранного типа изображения
-      ratings,
-      averageStars
+      id: randomBook[0]._id,
+      imageResource: randomBook[0].images[imageType],
+      titleBook: randomBook[0][lang].title,
+      nameAuthor: randomBook[0][lang].authorName,
+      stars: calculateAverageStars(randomBook[0].reviews),
+      ratings: randomBook[0].reviews.length,
+      price: randomBook[0].price
     };
 
     // Возвращаем отформатированную книгу
@@ -78,13 +113,13 @@ router.get('/special/random/:lang', async (req, res) => {
         averageStars = Math.round(totalStars / ratings); // Округляем результат до ближайшего целого числа
       }
       return {
-        _id: book._id,
-        price: book.price,
-        title: book[lang].title,
-        authorName: book[lang].authorName,
-        smallCover: book.images.smallCover,
+        id: book._id,
+        imageResource: book.images.smallCover,
+        titleBook: book[lang].title,
+        nameAuthor: book[lang].authorName,
+        stars: averageStars,
         ratings,
-        averageStars
+        price: book.price
       };
     }));
 
@@ -120,7 +155,7 @@ router.get('/authorImage/:bookId', async (req, res) => {
     }
 
     // Возвращаем изображение автора
-    res.json({ imageAuthor: book.images.authorImage });
+    res.send(book.images.authorImage);
   } catch (err) {
     res.status(500).json({ message: 'Ошибка получения данных из базы данных', error: err });
   }

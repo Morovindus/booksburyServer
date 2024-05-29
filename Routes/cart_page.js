@@ -24,7 +24,7 @@ router.get('/titleBook/:bookId/:lang', async (req, res) => {
     const title = book[lang].title;
 
     // Возвращаем название книги
-    res.json({ title });
+    res.send(title);
   } catch (err) {
     res.status(500).json({ message: 'Ошибка получения данных из базы данных', error: err });
   }
@@ -80,7 +80,7 @@ router.post('/add_purchased/:userId/:bookId', async (req, res) => {
 });
 
 // Маршрут для добавления нового уведомления
-router.post('/:userId/notifications', async (req, res) => {
+router.post('/:userId/new_notifications', async (req, res) => {
   try {
     const userId = req.params.userId;
     const { bookId, time, image } = req.body;

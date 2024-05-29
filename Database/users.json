@@ -1,8 +1,8 @@
 [{
-  "_id": 694240,
-  "username": "Olya Ivanova",
-  "email": "user@example.com",
-  "password": "password123",
+  "_id": 745647,
+  "username": "Jon Smith",
+  "email": "jon.smith@email.com",
+  "password": "qsZ0fTXsrPa/80YMBhls0w==\n",
   "notifications": [],
   "purchasedBooks": [],
   "favoriteBooks": [],
@@ -10,55 +10,57 @@
   "__v": 0
 },
 {
-  "_id": 592708,
-  "username": "Onyia Chikamso",
-  "email": "onyua_chikamso@gmail.com",
-  "password": "1234",
-  "notifications": [],
-  "purchasedBooks": [
-    "124729"
-  ],
-  "favoriteBooks": [],
-  "cart": [],
-  "__v": 0
-},
-{
-  "_id": 764544,
+  "_id": 655627,
   "username": "Mark Knyazev",
-  "email": "markela2604@yandex.ru",
-  "password": "1234",
+  "email": "mark_knyazev@mail.ru",
+  "password": "5rhrpYyrtDOGhPR8BbHvFQ==\n",
   "notifications": [
     {
-      "bookId": 124729,
-      "time": "11:20 16 May 2024",
-      "image": "http://192.168.1.42:3000/Images/The_Homeric_Hymns/smallPicture.png",
+      "bookId": 190430,
+      "time": "20:28 29 May 2024",
+      "image": "http://192.168.1.42:3000/Images/The_Republic/smallPicture.png",
       "_id": {
-        "$oid": "6645ebec440c6cd2b5e0d95c"
+        "$oid": "665765b564bfc11d2fa427a6"
       }
     },
     {
       "bookId": 572139,
-      "time": "13:33 16 May 2024",
+      "time": "20:28 29 May 2024",
       "image": "http://192.168.1.42:3000/Images/Magic_in_the_Ancient_Greek_World_4/smallPicture.png",
       "_id": {
-        "$oid": "66460b17cc190081b317ace2"
-      }
-    },
-    {
-      "bookId": 190435,
-      "time": "22:11 16 May 2024",
-      "image": "http://192.168.1.42:3000/Images/A_History_of_Babylon_2200_BC_Ad_75/smallPicture.png",
-      "_id": {
-        "$oid": "66465a5c3ebe72f907deb8ed"
+        "$oid": "665765b564bfc11d2fa427aa"
       }
     }
   ],
   "purchasedBooks": [
-    124729,
-    572139,
-    190435
+    190430,
+    572139
+  ],
+  "favoriteBooks": [],
+  "cart": [
+    946107
+  ],
+  "__v": 25
+},
+{
+  "_id": 938904,
+  "username": "Olya Ivanova",
+  "email": "olya_ivanova@gmail.com",
+  "password": "R3mCjpDRpslIQWrlvXONUg==\n",
+  "notifications": [
+    {
+      "bookId": 190430,
+      "time": "20:41 29 May 2024",
+      "image": "http://192.168.1.42:3000/Images/The_Republic/smallPicture.png",
+      "_id": {
+        "$oid": "665768c664bfc11d2fa42882"
+      }
+    }
+  ],
+  "purchasedBooks": [
+    190430
   ],
   "favoriteBooks": [],
   "cart": [],
-  "__v": 67
+  "__v": 4
 }]
